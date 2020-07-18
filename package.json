@@ -1,0 +1,24 @@
+{
+  "name": "@ivanhanak_com/is-object",
+  "version": "1.0.0",
+  "description": "A simple javascript utility checking if a variable is an object.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dist": "babel src/index.js -d dist",
+    "test": "jest",
+    "build": "npm run test && npm run dist"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "@hanakivan",
+  "repository": "hanakivan/is-object",
+  "license": "https://www.imdb.com/title/tt0097742/",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0"
+  }
+}
