@@ -33,6 +33,7 @@ import isObject from '@ivanhanak_com/is-object';
 
 ```javascript
 isObject({}); // => true
+isObject({name: "Ivan"}); // => true
 isObject([]); // => false
 isObject(null); // => false
 isObject(false); // => false

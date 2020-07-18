@@ -2,6 +2,7 @@ import isObject from './index';
 
 test('tests variables', () => {
     expect(isObject({})).toBeTruthy();
+    expect(isObject({name: "Ivan"})).toBeTruthy();
     expect(isObject([])).toBeFalsy();
     expect(isObject(null)).toBeFalsy();
     expect(isObject(false)).toBeFalsy();
