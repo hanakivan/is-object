@@ -1,6 +1,6 @@
 {
   "name": "@ivanhanak_com/is-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple javascript utility checking if a variable is an object.",
   "main": "./dist/index.js",
   "scripts": {
